@@ -1,0 +1,25 @@
+
+//set collection
+
+import java.util.Set;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		Set<String> s = new TreeSet<String>();
+	    s.add("H");
+	    s.add("A");
+	    s.add("D");
+	    s.add("J");
+	    s.add("I");
+	    
+	    Iterator i = s.iterator();
+	    while(i.hasNext()){
+	        Object item = i.next();
+	        System.out.println(item + " ");
+	    }
+	}
+}
