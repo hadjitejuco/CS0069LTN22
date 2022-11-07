@@ -1,0 +1,23 @@
+//linked list collection class 
+
+import java.util.LinkedList;
+
+public class Main
+{
+	public static void main(String[] args) {
+        LinkedList<String> ll = new LinkedList<String>();
+        ll.add("B");
+        ll.add("C");
+        ll.add("D");
+        ll.add("E");
+        ll.add("F");
+        ll.addLast("Z");
+        ll.addFirst("A");
+        
+        System.out.println("Content of ll " + ll);
+        ll.removeFirst();
+	    System.out.println("Content of ll " + ll);
+	    ll.removeLast();
+	    System.out.println("Content of ll " + ll);
+	}
+}
